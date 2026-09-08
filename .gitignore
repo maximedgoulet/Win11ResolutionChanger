@@ -1,0 +1,7 @@
+# Diagnostic output
+SetRes-diag.log
+
+# Windows cruft
+Thumbs.db
+desktop.ini
+*.lnk
