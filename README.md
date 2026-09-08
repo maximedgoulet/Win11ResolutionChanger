@@ -19,8 +19,16 @@ third-party binaries, no installer.
 ## Quick start
 
 ```
-git clone https://github.com/maximedgoulet/Win11ResolutionChanger.git
-cd Win11ResolutionChanger
+## Download
+
+1. Go to the [Releases](https://github.com/maximedgoulet/Win11ResolutionChanger/releases) page.
+2. Under the latest release, download **Source code (zip)**.
+3. Right-click the zip → **Properties** → tick **Unblock** → **OK**.
+4. Extract it anywhere you like.
+5. Double-click `Res-Diag.bat` to see what your monitor supports, then
+   double-click the resolution you want.
+
+Step 3 matters. If you skip it, Windows blocks the scripts and nothing happens.
 ```
 
 Everything resolves paths relative to its own location, so the folder can live
