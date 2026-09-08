@@ -1,0 +1,12 @@
+# Normalize on checkin, checkout per-platform.
+* text=auto
+
+# Windows-native scripts must always land as CRLF, regardless of the
+# platform doing the checkout. Batch parsing is line-ending sensitive:
+# multi-line if/for blocks and label jumps can fail with bare LF.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Docs stay LF
+*.md    text eol=lf
