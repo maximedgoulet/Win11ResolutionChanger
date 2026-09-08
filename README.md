@@ -19,8 +19,8 @@ third-party binaries, no installer.
 ## Quick start
 
 ```
-git clone <this-repo>
-cd <repo>
+git clone https://github.com/maximedgoulet/Win11ResolutionChanger.git
+cd Win11ResolutionChanger
 ```
 
 Everything resolves paths relative to its own location, so the folder can live
